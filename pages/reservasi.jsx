@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Form from "../components/Form";
 
-const reservasi = () => {
+const Reservasi = () => {
     const [count, setCount] = useState(1)
   return (
     <div className="p-5 lg:w-2/4 lg:mx-auto">
@@ -122,4 +122,4 @@ const reservasi = () => {
     </div>
   );
 };
-export default reservasi;
+export default Reservasi;
